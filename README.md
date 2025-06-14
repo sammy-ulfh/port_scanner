@@ -7,14 +7,14 @@
         style="float: left; margin-right: 10px;">
 </p>
 
+**TCP Port Scanner** is a fast tool to scan open ports. You can use it giving the **target host** and **port**.
+
 <p align="center">
-    <img width="700"
+    <img width="500"
         src="images/001.png"
         alt="Scanning example"
         style="float: left; margin-right: 10px;">
 </p>
-
-**TCP Port Scanner** is a fast tool to scan open ports. You can use it giving the **target host** and **port**.
 
 ## How can I use it?
 
