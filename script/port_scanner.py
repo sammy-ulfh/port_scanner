@@ -33,7 +33,7 @@ signal.signal(signal.SIGINT, def_handler)
 
 # Get menu arguments
 def get_arguments():
-    argparser = argparse.ArgumentParser(description="Fast TCP Port Scanner")
+    argparser = argparse.ArgumentParser(description="Fast Port Scanner")
     argparser.add_argument("-t", "--target", dest="target", required=True, help="Target to scan (Ex: 10.10.10.10)")
     argparser.add_argument("-p", "--port", dest="port", required=True, help="Port range to scan (Ex: 1-100 or 3030,8080,22 or 8080)")
     argparser.add_argument("-tU", "--target-up", dest="target_up", help="Verify if the target is up before the scan (Ex: yes or no) | default value 'yes'")
@@ -125,7 +125,7 @@ def print_banner():
 █▀█ █▀█ █▀█ ▀█▀   █▀ █▀▀ ▄▀█ █▄░█ █▄░█ █▀▀ █▀█
 █▀▀ █▄█ █▀▄ ░█░   ▄█ █▄▄ █▀█ █░▀█ █░▀█ ██▄ █▀▄\n""", 'white'))
 
-    print(colored("""Mᴀᴅᴇ ʙʏ sᴀᴍᴍʏ-ᴜʟғʜ""", 'yellow'))
+    print(colored("""Mᴀᴅᴇ ʙʏ sᴀᴍᴍʏ-ᴜʟғʜ\n""", 'yellow'))
 
 # main logic
 def main():
