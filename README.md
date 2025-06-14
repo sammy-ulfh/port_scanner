@@ -1,4 +1,4 @@
-# TCP Port Scanner
+# Port Scanner
 
 <p align="center">
     <img width="700"
@@ -7,7 +7,7 @@
         style="float: left; margin-right: 10px;">
 </p>
 
-**TCP Port Scanner** is a fast tool to scan open ports. You can use it giving the **target host** and **port**.
+**Port Scanner** is a fast tool to scan open ports. You can use it giving the **target host** and **port**.
 
 <p align="center">
     <img width="700"
@@ -15,6 +15,22 @@
         alt="Scanning example"
         style="float: left; margin-right: 10px;">
 </p>
+
+## What I need to run it?
+
+1. First, you need to clone the repository:
+
+    ```git
+    git clone https://github.com/sammy-ulfh/port_scanner.git
+    ```
+
+2. Second, you need to go to **port_scanner/script** directory.
+
+3. Third, you need to install the required libraries using pip:
+
+    ```pip3
+    pip3 install -r requirements.txt
+    ```
 
 ## How can I use it?
 
